@@ -38,7 +38,7 @@
 						<header class="major">
 							<h2>Qui sommes-nous ?</h2>
 						</header>
-						<p>Bienvenue chez Saharacape. Nous ne nous contentons pas de tracer des itinéraires ; nous vous ouvrons les portes des métropoles les plus vibrantes du continent. Que vous fassiez escale dans le dynamisme des gratte-ciel d'Abidjan ou que vous exploriez les collines verdoyantes de Yaoundé, vous n'êtes jamais seul.
+						<p>Bienvenue chez Saharacape. Nous ne nous contentons pas de tracer des itinéraires ; nous vous ouvrons les portes des zones les plus vibrantes du continent. Que vous fassiez escale dans le dynamisme des gratte-ciel d'Abidjan ou que vous exploriez les collines verdoyantes de Yaoundé, vous n'êtes jamais seul.
 
 À chaque étape de votre voyage, un guide local expert vous attend pour vous faire découvrir l'âme de sa ville, ses secrets bien gardés et sa modernité bouillonnante. Avec Saharacape, voyagez en toute liberté, l'expertise locale en plus.</p>
 					</div>
@@ -63,27 +63,60 @@
 </section>
 
 <section id="footer" class="main special">
-	<div style="margin-top: 40px; text-align: center;">
+	<!-- <div style="margin-top: 40px; text-align: center;">
     <a href="formulaire.html" class="primary" style="text-decoration: none; display: inline-block;">Nous contacter</a>
-</div>
-    <!-- <div class="container">
-        <header class="major">
-            <h2>Contactez SaharaCape</h2>
-            <p>Prêt pour votre prochaine étape ? Envoyez-nous un message.</p>
-        </header>
-        <form method="post" action="#">
-            <div class="row gtr-uniform">
-                <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Nom" /></div>
-                <div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-                <div class="col-12"><textarea name="message" id="message" placeholder="Votre message" rows="4"></textarea></div>
-                <div class="col-12">
-                    <ul class="actions special">
-                        <li><input type="submit" value="Envoyer" class="primary" /></li>
-                    </ul>
-                </div>
+</div> -->
+    <section class="main">
+            <div class="container">
+                <header>
+                    <h2>Contactez-nous</h2>
+                    <p>Remplissez ce formulaire pour préparer votre voyage.</p>
+                </header>
+
+                <form method="post" action="#" style="display: flex; flex-direction: column; gap: 15px; margin-top: 30px;">
+                    
+                    <input type="text" name="nom" placeholder="Nom" required style="padding: 12px; border: 1px solid #ddd; border-radius: 5px;">
+                    
+                    <input type="text" name="prenom" placeholder="Prénom" required style="padding: 12px; border: 1px solid #ddd; border-radius: 5px;">
+                    
+                    <input type="email" name="email" placeholder="Adresse Mail" required style="padding: 12px; border: 1px solid #ddd; border-radius: 5px;">
+                    
+                    <input type="tel" name="telephone" placeholder="Numéro de téléphone" style="padding: 12px; border: 1px solid #ddd; border-radius: 5px;">
+					<select name="destination" required style="padding: 12px; border: 1px solid #ddd; border-radius: 5px; background-color: white; color: #555; cursor: pointer;">
+				        <option value="" disabled selected>Budget approximatif (€)</option>
+				        <option value="deserts">< 2000</option>
+				        <option value="oasis">2000 - 3000 </option>
+				        <option value="culture">3000 - 4000 </option>
+				        <option value="aventure">+ 4000</option>
+				    </select>
+					<select name="destination" required style="padding: 12px; border: 1px solid #ddd; border-radius: 5px; background-color: white; color: #555; cursor: pointer;">
+				        <option value="" disabled selected>Votre type d'expérience</option>
+				        <option value="deserts">Plages</option>
+				        <option value="oasis">Aventure</option>
+				        <option value="culture">Culture</option>
+				        <option value="aventure">Luxe</option>
+				    </select>
+					<select name="destination" required style="padding: 12px; border: 1px solid #ddd; border-radius: 5px; background-color: white; color: #555; cursor: pointer;">
+				        <option value="" disabled selected>Quand souhaitez-vous partir ?</option>
+				        <option value="deserts">< 3 mois </option>
+				        <option value="oasis">3-6 mois</option>
+				        <option value="culture">+ de 6 mois</option>
+				    </select>
+					
+                    
+                    <textarea name="message" placeholder="Votre message" rows="5" required style="padding: 12px; border: 1px solid #ddd; border-radius: 5px; font-family: inherit;"></textarea>
+                    
+                    <div style="margin-top: 10px;">
+                        <input type="submit" value="Envoyer" class="primary">
+                    </div>
+
+                </form>
+
+                <!-- <div style="margin-top: 30px;">
+                    <a href="index.html" style="color: #2d6a4f; text-decoration: none; font-size: 0.9rem;">← Retour à l'accueil</a>
+                </div> -->
             </div>
-        </form>
-    </div> -->
+</section>
 </section>
 
 		<!-- Three 
@@ -116,3 +149,4 @@
 	</body>
 
 </html>
+
