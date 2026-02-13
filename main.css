@@ -136,18 +136,17 @@ input[type="submit"].primary:hover, a.primary:hover {
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
-/* On cible TOUS les types de champs que tu peux avoir */
+
 input[type="email"], 
 input[type="text"], 
 input[type="tel"], 
 input[type="number"],
 select {
     width: 320px;          /* Largeur fixe pour tout le monde */
-    margin: 15px auto;     /* Centré avec de l'espace vertical */
+    margin: 8px auto;     /* Centré avec de l'espace vertical */
     display: block;        /* Un par ligne */
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 8px;
     font-family: 'Inter', sans-serif;
-    box-sizing: border-box; /* Pour que le padding ne dépasse pas des 320px */
-}
+    box-sizing: border-box;
