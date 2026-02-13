@@ -142,10 +142,10 @@ input[type="text"],
 input[type="tel"], 
 input[type="number"],
 select {
-    width: 320px !important;          /* Largeur fixe pour tout le monde */
-    margin: 8px auto !important;     /* Centré avec de l'espace vertical */
-    display: block !important;        /* Un par ligne */
-    padding: 12px !important;
+    width: 320px;          /* Largeur fixe pour tout le monde */
+    margin: 8px auto;     /* Centré avec de l'espace vertical */
+    display: block;        /* Un par ligne */
+    padding: 12px;
     border: 1px solid #ccc;
     border-radius: 8px;
     font-family: 'Inter', sans-serif;
